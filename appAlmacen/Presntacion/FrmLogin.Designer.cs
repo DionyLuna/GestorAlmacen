@@ -1,6 +1,6 @@
 ﻿namespace Presntacion
 {
-    partial class Form1
+    partial class FrmLogin
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmLogin));
             this.txtUsuario = new Guna.UI.WinForms.GunaTextBox();
             this.txtPassword = new Guna.UI.WinForms.GunaTextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -133,7 +133,7 @@
             this.BtnAceptar.Text = "Aceptar";
             this.BtnAceptar.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // Form1
+            // FrmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -149,8 +149,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "FrmLogin";
             this.ResumeLayout(false);
             this.PerformLayout();
 
